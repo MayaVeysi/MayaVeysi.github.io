@@ -40,6 +40,30 @@ h2{
 .r3{
 	margin: 30px;
 }
-h2{
-	color: #142966;
+
+/* Style the navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #142966;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px;
+  text-decoration:blink;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.mycl{
+	padding-top: 20px;
 }
